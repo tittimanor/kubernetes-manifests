@@ -11,7 +11,7 @@ spec:
   accessModes:
     - ReadWriteMany
   nfs:
-    server: <nfs server ip>
+    server: <3.85.1.181>
     path: "/mnt/share"
 ---
 apiVersion: v1
